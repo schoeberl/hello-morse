@@ -109,8 +109,12 @@ class HelloMorse(freq: Int) extends Module {
   io.led := regs(0)
 }
 
+/*
 object HelloMorse extends App {
   // It is 10 MHz for the chip, but 100 MHz for the Basys 3 board
   val Basys3 = false
   emitVerilog(new HelloMorse(if (Basys3) 100000000 else 10000000))
 }
+
+
+ */
